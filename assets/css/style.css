@@ -1,0 +1,146 @@
+ /* About Page */
+html, body {
+    background-image: url("../images/subtlegrey.png");
+}
+
+.border {
+    width: 3px solid #dddddd;
+    border-block-color: #cccccc;
+
+}
+
+h1 {
+    font-size: 18pt;
+    color: #ffffff;
+}
+
+h2 {
+    margin-top: 50px;
+    color: #4aaaa5;
+}
+
+.container {
+    background-color: #ffffff;
+    margin-top: 10px;
+    /* width: 960px; */
+    border: 2px solid #dddddd;
+}
+
+.container\mt-5\mb-5 {
+    background-color: #ffffff;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    /* background-color: #4aaaa5; */
+    height: 50px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.nav-link:hover {
+    background-color: #4aaaa5;
+}
+
+.sr-only {
+    color: #ffffff;
+}
+
+.footer\fixed-bottom\footer-dark\bg-dark\justify-content-center {
+    height: 50px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.navbar-brand\footer {
+    border: 2px solid #4aaaa5;
+}
+
+.page-header {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Portfolio Page */
+
+.page-header {
+    color: #4aaaa5;
+}
+
+#silverwindpic,
+.clearfix {
+    overflow: auto;
+}
+
+#starwarsfalconpic,
+.clearfix {
+    overflow: auto;
+}
+
+#marvelbox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    font-size: 12pt;
+    padding: 13px;
+    text-align: center;
+}
+
+#harrypotterbox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    font-size: 12pt;
+    padding: 12px;
+    text-align: center;
+}
+
+#silverwindbox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    font-size: 12pt;
+    padding: 12px;
+    text-align: center;
+}
+
+#starwarsbox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    font-size: 12pt;
+    padding: 12px;
+    text-align: center;
+}
+
+#hungergamesbox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    font-size: 12pt;
+    padding: 12px;
+    text-align: center;
+}
+/* Contact Page */
+
+.page-header {
+    color: #4aaaa5;
+}
+
+.btn\btn-primary {
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
+
+form {
+    field-s 
+}
