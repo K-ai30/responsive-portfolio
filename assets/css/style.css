@@ -150,3 +150,12 @@ p {
 section {
     padding-bottom: 10px;
 }
+
+.custom-outline {
+    border-color: #4aaaa5;
+}
+
+.text-white {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px;
+}
