@@ -3,18 +3,25 @@ html, body {
     background-image: url("../images/subtlegrey.png");
 }
 
-.border {
-    width: 3px solid #dddddd;
+.custom-border {
+    border-bottom: 3px solid #cccccc;
+}
+
+.custom-background {
+    background-color: #4aaaa5;
+    padding: 10px;
 }
 
 h1 {
     font-size: 18pt;
     color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h2 {
-    margin-top: 50px;
+    margin-top: 30px;
     color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .container {
@@ -24,37 +31,25 @@ h2 {
     border: 2px solid #dddddd;
 }
 
-.container\mt-5\mb-5 {
+/* .container\mt-5\mb-5 {
     background-color: #ffffff;
-}
+} */
 
-.col-md-6 {
+.col-md-6\mb-5 {
     text-align: center;
 }
 
-/* .navbar\navbar-expand-lg\navbar-light\bg-light {
-    text-decoration: none;
-} */
 .navbar-brand {
     color: #ffffff;
-    /* background-color: #4aaaa5; */
     height: 50px;
     text-align: center;
     font-size: 12pt;
     padding: 0rem 1rem;
+    text-decoration: none;
 }
 
-#my-name {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    height: 50px;
-    text-align: center;
-    font-size: 12pt;
-    padding: 0rem 1rem;
-}
 .nav-link:hover {
     background-color: #4aaaa5;
-    color: #ffffff;
 }
 
 #about {
@@ -65,23 +60,8 @@ h2 {
     border-right: 1px solid #777777;
 }
 
-/* .sr-only {
-    color: #ffffff;
-} */
-
-.footer\fixed-bottom\footer-dark\bg-dark\d-flex\justify-content-center {
-    height: 50px;
-    text-align: center;
-    font-size:32pt;
-    border: 3px;
-}
-
-.navbar-brand {
-    /* border: 2px solid #4aaaa5; */
-}
-
-.page-header {
-    color: #4aaaa5;
+.custom-footerborder {
+    border-top: 5px solid #4aaaa5;
 }
 
 p {
@@ -90,17 +70,12 @@ p {
 }
 
 /* Portfolio Page */
-
-.page-header {
-    color: #4aaaa5;
-}
-
 #marvelbox {
     background-color: #4aaaa5;
     color: #ffffff;
     width: 200px;
     font-size: 12pt;
-    padding: 13px;
+    padding: 12px;
     text-align: center;
     position: relative;
     bottom: 50px;
@@ -149,18 +124,9 @@ p {
     position: relative;
     bottom: 50px;
 }
+
 /* Contact Page */
-
-.page-header {
-    color: #4aaaa5;
-}
-
 .btn\btn-primary {
     background-color: #4aaaa5;
     color: #ffffff;
-
 }
-
-/* form {
-    field-s 
-} */
