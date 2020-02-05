@@ -160,6 +160,34 @@ section {
     padding: 10px;
 }
 
+.githubIcon {
+    color: #777777;
+}
+
+.linkedInIcon {
+    color: #777777;
+}
+
+.resumeIcon {
+    color: #777777;
+}
+
+a {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: #777777;
+}
+
+form, .btn {
+    color: #4aaaa5;
+}
+
+form, .btn:hover {
+    color: #777777;
+}
+
 /* Social Media Icons */
 .wrapper {
     float: right;
