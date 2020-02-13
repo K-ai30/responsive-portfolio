@@ -27,6 +27,9 @@ The visitor can access the following items:
 - Portfolio Page
 - Contact Page
 - Mobile-friendly
+- Social media links (LinkedIn & GitHub)
+- Email
+- Resume PDF
 
 One of the "extra" or additional features included were enhanced elements on the Navigation Links to add styling to the buttons in the form of "On Hover" effects.
 
