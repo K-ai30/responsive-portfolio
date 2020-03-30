@@ -24,24 +24,21 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" id="about" href="index.html">About</a>
+            <a class="nav-link" id="about" href="index.html"><i class="fas fa-user"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="portfolio" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" id="portfolio" href="portfolio.html"><i class="fas fa-laptop-code"></i> Portfolio</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html"><i class="far fa-envelope"></i> Contact</a>
             </li>
         </ul>
       </div>
     </nav>
 
-    <div class="wrapper">
-      <div class="githubIcon col-sm-2">
+    <!-- <div class="wrapper">
+      <div id="gh" class="githubIcon col-sm-2">
         GitHub: <a href="https://github.com/K-ai30" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-github"></i></a>
-      </div>
-      <div class="linkedInIcon col-sm-2">
-        LinkedIn: <a href="https://www.linkedin.com/in/alia-kyle-perry-mba" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-linkedin-in"></i></a>
       </div>
       <div class="emailIcon col-sm-2">
         Email: <a href="mailTo:perry.aliakyle@gmail.com" target="_blank"><i style="font-size:40px" style="color:black" class="fas fa-envelope-open-text"></i></a>
@@ -52,12 +49,14 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <!-- This is my header and container for the content. -->
     <div class="container mt-5 mb-5">
           <div class="page-header">
-              <h2>About Me</h2>
+              <h2>About Me<div id="inIcon" class="linkedInIcon col-sm-2">
+                <a href="https://www.linkedin.com/in/alia-kyle-perry-mba" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-linkedin-in"></i></a>
+              </div></h2>
           </div>
 
           <hr>
@@ -65,7 +64,22 @@
           <div class="row">
             <div class="col-md-3">
               <img src="assets/images/Headshot1.jpg" width="275" height="350" alt="woman wearing glasses">
+              <div class="row">
+                <div id="pdfIcon" class="resumeIcon col-sm-2">
+                  Resume:<form method="get" action="assets/PDF/AKP_Resume.pdf" target="_new">
+                    <button class="btn btn-link btn-light" type="submit"><i class="fas fa-file-pdf"></i>PDF
+                    </button>
+                  </form>
+                </div>
+                <div id="gh" class="githubIcon col-sm-2">
+                  GitHub: <a href="https://github.com/K-ai30" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-github"></i></a>
+                </div>
+                <div id="emailIcon" class="emailIcon col-sm-2">
+                  Email: <a href="mailTo:perry.aliakyle@gmail.com" target="_blank"><i style="font-size:40px" style="color:black" class="fas fa-envelope-open-text"></i></a>
+                </div>
+              </div>
             </div>
+            
           <div class="col-md-9">
                   <p class="p">
                     I am passionate about art, especially drawing, painting, photography and design.  I have a Bachelor of Fine Art in Photography from Savannah College of Art and Design.  After working for 5 years, I went back to school for my masters while working full-time.  I currently hold a Master of Business Administration with a concentration in Marketing.  Outside of my interests in continued learning, I volunteer and work with a couple of nonprofit organizations.
@@ -81,6 +95,14 @@
                   </p>
             </div>
           </div>
+          <!-- <div class="row">
+            <div class="resumeIcon col-sm-2">
+              Resume:<form method="get" action="assets/PDF/AKP_Resume.pdf" target="_new">
+                <button class="btn btn-link btn-light" type="submit"><i class="fas fa-file-pdf"></i>PDF
+                </button>
+              </form>
+            </div>
+          </div> -->
         </div>
 
       <!-- Footer -->

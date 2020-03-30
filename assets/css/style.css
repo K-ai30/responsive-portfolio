@@ -24,6 +24,11 @@ h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+h5 {
+    color: #4aaaa5;
+    margin-top: 0;
+}
+
 .container {
     background-color: #ffffff;
     margin-top: 10px;
@@ -69,11 +74,45 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+#inIcon {
+    float: right;
+}
+
+#gh {
+    float: right;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#emailIcon {
+    float: right;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#pdfIcon {
+    margin-top: 5px;
+}
+
 /* Portfolio Page */
-#marvelbox {
+#ghIcon {
+    float: right;
+}
+
+.card {
+    border: none;
+}
+
+.card-img {
+    padding: 5px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+#yumtrucksbox {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 254px;
     font-size: 12pt;
     padding: 12px;
     text-align: center;
@@ -81,10 +120,10 @@ p {
     bottom: 50px;
 }
 
-#HikeGuidebox {
+#eatburgerbox {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 254px;
     font-size: 12pt;
     padding: 12px;
     text-align: center;
@@ -92,10 +131,10 @@ p {
     bottom: 50px;
 }
 
-#silverwindbox {
+#hikersguidebox {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 254px;
     font-size: 12pt;
     padding: 12px;
     text-align: center;
@@ -106,7 +145,7 @@ p {
 #dayplanbox {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 254px;
     font-size: 12pt;
     padding: 12px;
     text-align: center;
@@ -114,10 +153,10 @@ p {
     bottom: 50px;
 }
 
-#hungergamesbox {
+#codequizbox {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 254px;
     font-size: 12pt;
     padding: 12px;
     text-align: center;
@@ -128,7 +167,7 @@ p {
 #pwgenbox {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 200px;
+    width: 254px;
     font-size: 12pt;
     padding: 12px;
     text-align: center;
@@ -137,6 +176,10 @@ p {
 }
 
 /* Contact Page */
+#emailIcon {
+    float: right;
+}
+
 .btn\btn-primary {
     background-color: #4aaaa5;
     color: #ffffff;

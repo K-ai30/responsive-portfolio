@@ -24,22 +24,19 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" id="about" href="index.html">About</a>
+            <a class="nav-link" id="about" href="index.html"><i class="fas fa-user"></i> About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="portfolio" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" id="portfolio" href="portfolio.html"><i class="fas fa-laptop-code"></i> Portfolio</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html"><i class="far fa-envelope"></i> Contact</a>
             </li>
         </ul>
       </div>
     </nav>
 
-    <div class="wrapper">
-      <div class="githubIcon col-sm-2">
-        GitHub: <a href="https://github.com/K-ai30" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-github"></i></a>
-      </div>
+    <!-- <div class="wrapper">
       <div class="linkedInIcon col-sm-2">
         LinkedIn: <a href="https://www.linkedin.com/in/alia-kyle-perry-mba" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-linkedin-in"></i></a>
       </div>
@@ -52,44 +49,52 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
   
   <div class="container mt-5 mb-5">
       <div class="page-header">
-         <h2>Portfolio</h2>
+         <h2>Portfolio<div id="ghIcon" class="githubIcon d-flex">
+          GitHub:<a href="https://github.com/K-ai30" target="_blank"><i style="font-size:40px" style="color:black" class="fab fa-github"></i></a>
+          </div></h2>
       </div>
 
       <hr>
 
       <div class="row">
-        <div class="col-md-3 mb-1">
-          <img src="assets/images/marvel1.jpeg" height="200" width="200">
-          <h3 id="marvelbox">Marvel Reboot 2.0</h3>
+        <div class="card mb-1 col-md-3 bg-white mx-left" style="width: 18rem;">
+          <img src="assets/images/yumTrucks.png" class="card-img" alt=" " height="200" width="200">
+          <h3 id="yumtrucksbox">YumTrucks</h3>
+          <h5 class="card-title text-info" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/YumTrucks" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
         </div>
 
-        <div class="col-md-3 mb-1">
-            <img id="HikeGuidepic" src="assets/images/theHikersGuide.png" height="200" width="200">
-            <h3 id="HikeGuidebox">theHikersGuide App</h3>
+        <div class="card mb-1 col-md-3 bg-white mx-left" style="width: 18rem;">
+            <img id="eatburgerpic" src="assets/images/burger.png" class="card-img" alt=" " height="200" width="200">
+            <h3 id="eatburgerbox">Eat-Da-Burger!</h3>
+            <h5 class="card-title text-info" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/burger" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
         </div>
 
-        <div class="col-md-3 mb-1">
-            <img id="silverwindpic" src="assets/images/silverwind.jpg" height="200" width="200">
-            <h3 id="silverwindbox">The Silver Wind Widget</h3>
+        <div class="card mb-1 col-md-3 bg-white mx-left" style="width: 18rem;">
+            <img id="hikersguidepic" src="assets/images/theHikersGuide.png" class="card-img" alt=" " height="200" width="200">
+            <h3 id="hikersguidebox">theHikersGuide App</h3>
+            <h5 class="card-title text-info" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/aagrosse/theHikersGuide" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
         </div>
 
-        <div class="col-md-3 mb-1">
-            <img id="dayplanpic" src="assets/images/dayplanner.png" height="200" width="200">
+        <div class="card mb-1 col-md-3 bg-white mx-left" style="width: 18rem;">
+            <img id="dayplanpic" src="assets/images/dayplanner.png" class="card-img" alt=" " height="200" width="200">
             <h3 id="dayplanbox">Day Planner</h3>
+            <h5 class="card-title text-info" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/day-planner" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
         </div>
 
-        <div class="col-md-3 mb-1">
-            <img src="assets/images/hungergames.png" height="200" width="200">
-            <h3 id="hungergamesbox">Hunger Games Trivia</h3>
+        <div class="card mb-1 col-md-3 bg-white mx-left" style="width: 18rem;">
+            <img id="codequizpic" src="assets/images/codequiz.png" class="card-img" alt=" " height="200" width="200">
+            <h3 id="codequizbox">Code Quiz</h3>
+            <h5 class="card-title text-info" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/code-quiz" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
         </div>
 
-        <div class="col-md-3 mb-1">
-            <img id="pwgenpic" src="assets/images/PasswordGenerator.png" height="200" width="200">
+        <div class="card mb-1 col-md-3 bg-white mx-left" style="width: 18rem;">
+            <img id="pwgenpic" src="assets/images/PasswordGenerator.png" class="card-img" alt=" " height="200" width="200">
             <h3 id="pwgenbox">Password Generator</h3>
+            <h5 class="card-title text-info" style="text-align:center">GitHub: <a class="githubIcon" href="https://github.com/K-ai30/password-generator" target="_blank"><i style="font-size:25px" class="fab fa-github"></i></a></h5>
         </div>
       </div>
   </div>
