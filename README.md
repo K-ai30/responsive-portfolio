@@ -50,7 +50,7 @@ I started building this website to serve as my portfolio site to showcase my cod
 
 ### Author
 
-- Alia Kyle Perry (full stack developer)
+- Alia Kyle Perry (Full Stack Developer)
 
 ### Contributing
 
