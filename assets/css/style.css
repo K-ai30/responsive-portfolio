@@ -65,6 +65,9 @@ h5 {
     border-right: 1px solid #777777;
 }
 
+#technical {
+    border-right: 1px solid #777777;
+}
 .custom-footerborder {
     border-top: 5px solid #4aaaa5;
 }
@@ -107,6 +110,28 @@ p {
     padding: 5px;
     margin-top: 15px;
     border: 1px solid black;
+}
+
+#datatrakbox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 254px;
+    font-size: 12pt;
+    padding: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+#empdirectorybox {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 254px;
+    font-size: 12pt;
+    padding: 12px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
 }
 
 #yumtrucksbox {
@@ -173,6 +198,69 @@ p {
     text-align: center;
     position: relative;
     bottom: 50px;
+}
+
+/* Technical Page */
+/* Platforms & Languages */
+#intro {
+    text-align: center;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+#credentials {
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+}
+
+#contactForm {
+    text-align: center;
+}
+
+#apps {
+    height: 960px;
+}
+
+/* h2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    float: center;
+} */
+
+h3 {
+    font-size: 50pt;
+}
+
+.icon {
+    font-size: 35pt;
+    display: inline-block;
+    padding: 15px;
+}
+
+.scrollUp {
+    margin-top: 130px;
+    margin-left: 150px;
+    float: right;
+    border: none;
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+li.education {
+    list-style-type: none;
+    color: #4aaaa5;
+    font-size: 12pt;
+}
+
+#certs {
+    clear: right;
 }
 
 /* Contact Page */
