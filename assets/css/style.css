@@ -112,6 +112,14 @@ p {
     border: 1px solid black;
 }
 
+.description {
+    text-align: justify;
+}
+
+.language {
+    text-align: center;
+}
+
 #datatrakbox {
     background-color: #4aaaa5;
     color: #ffffff;
