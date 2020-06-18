@@ -8,5 +8,7 @@
         "pwgenbox",
         "pwgenpic"
     ],
-
+    "workbench.editorAssociations": [
+    
+    ]
 }
